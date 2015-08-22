@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MHKViewController.h
 //  iOSDevNote_OC
 //
 //  Created by MHK on 15/8/22.
@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MHKDefines.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface MHKViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+- (CGRect)contentFrame;
+- (void)goBack;
 
 @end
-

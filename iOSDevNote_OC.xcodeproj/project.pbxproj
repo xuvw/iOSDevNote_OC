@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		500D59511B88CB8E00C0139F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59501B88CB8E00C0139F /* main.m */; };
 		500D59541B88CB8E00C0139F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59531B88CB8E00C0139F /* AppDelegate.m */; };
-		500D59571B88CB8E00C0139F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59561B88CB8E00C0139F /* ViewController.m */; };
-		500D595A1B88CB8E00C0139F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500D59581B88CB8E00C0139F /* Main.storyboard */; };
 		500D595C1B88CB8E00C0139F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500D595B1B88CB8E00C0139F /* Images.xcassets */; };
 		500D595F1B88CB8E00C0139F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500D595D1B88CB8E00C0139F /* LaunchScreen.xib */; };
 		500D596B1B88CB8E00C0139F /* iOSDevNote_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D596A1B88CB8E00C0139F /* iOSDevNote_OCTests.m */; };
+		500D59771B88CC3B00C0139F /* MHKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59761B88CC3B00C0139F /* MHKViewController.m */; };
+		500D597B1B88CD1A00C0139F /* MHKMainIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D597A1B88CD1A00C0139F /* MHKMainIndexViewController.m */; };
+		500D59891B88CEC800C0139F /* MHKBaseAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59881B88CEC800C0139F /* MHKBaseAnimationsViewController.m */; };
+		500D598E1B88CF4100C0139F /* MLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D598D1B88CF4100C0139F /* MLTransition.m */; };
+		500D59921B88D22A00C0139F /* MHKDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59911B88D22A00C0139F /* MHKDefines.m */; };
+		500D59951B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59941B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.m */; };
+		500D59981B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59971B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,25 @@
 		500D59501B88CB8E00C0139F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		500D59521B88CB8E00C0139F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		500D59531B88CB8E00C0139F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		500D59551B88CB8E00C0139F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		500D59561B88CB8E00C0139F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		500D59591B88CB8E00C0139F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		500D595B1B88CB8E00C0139F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		500D595E1B88CB8E00C0139F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		500D59641B88CB8E00C0139F /* iOSDevNote_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDevNote_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		500D59691B88CB8E00C0139F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		500D596A1B88CB8E00C0139F /* iOSDevNote_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDevNote_OCTests.m; sourceTree = "<group>"; };
+		500D59751B88CC3B00C0139F /* MHKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHKViewController.h; sourceTree = "<group>"; };
+		500D59761B88CC3B00C0139F /* MHKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHKViewController.m; sourceTree = "<group>"; };
+		500D59791B88CD1A00C0139F /* MHKMainIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHKMainIndexViewController.h; sourceTree = "<group>"; };
+		500D597A1B88CD1A00C0139F /* MHKMainIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHKMainIndexViewController.m; sourceTree = "<group>"; };
+		500D59871B88CEC800C0139F /* MHKBaseAnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHKBaseAnimationsViewController.h; sourceTree = "<group>"; };
+		500D59881B88CEC800C0139F /* MHKBaseAnimationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHKBaseAnimationsViewController.m; sourceTree = "<group>"; };
+		500D598C1B88CF4100C0139F /* MLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTransition.h; sourceTree = "<group>"; };
+		500D598D1B88CF4100C0139F /* MLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTransition.m; sourceTree = "<group>"; };
+		500D59901B88D22A00C0139F /* MHKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHKDefines.h; sourceTree = "<group>"; };
+		500D59911B88D22A00C0139F /* MHKDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHKDefines.m; sourceTree = "<group>"; };
+		500D59931B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MHKMainIndexViewController+TableViewDelegates.h"; sourceTree = "<group>"; };
+		500D59941B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MHKMainIndexViewController+TableViewDelegates.m"; sourceTree = "<group>"; };
+		500D59961B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MHKBaseAnimationsViewController+Animations.h"; sourceTree = "<group>"; };
+		500D59971B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MHKBaseAnimationsViewController+Animations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +99,13 @@
 			children = (
 				500D59521B88CB8E00C0139F /* AppDelegate.h */,
 				500D59531B88CB8E00C0139F /* AppDelegate.m */,
-				500D59551B88CB8E00C0139F /* ViewController.h */,
-				500D59561B88CB8E00C0139F /* ViewController.m */,
-				500D59581B88CB8E00C0139F /* Main.storyboard */,
 				500D595B1B88CB8E00C0139F /* Images.xcassets */,
 				500D595D1B88CB8E00C0139F /* LaunchScreen.xib */,
 				500D594E1B88CB8E00C0139F /* Supporting Files */,
+				500D598A1B88CF0500C0139F /* Vendors */,
+				500D598F1B88D21300C0139F /* MHKDefines */,
+				500D59741B88CC1300C0139F /* MHKBase */,
+				500D59781B88CCE300C0139F /* MHKSections */,
 			);
 			path = iOSDevNote_OC;
 			sourceTree = "<group>";
@@ -117,6 +134,80 @@
 				500D59691B88CB8E00C0139F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		500D59741B88CC1300C0139F /* MHKBase */ = {
+			isa = PBXGroup;
+			children = (
+				500D59751B88CC3B00C0139F /* MHKViewController.h */,
+				500D59761B88CC3B00C0139F /* MHKViewController.m */,
+			);
+			path = MHKBase;
+			sourceTree = "<group>";
+		};
+		500D59781B88CCE300C0139F /* MHKSections */ = {
+			isa = PBXGroup;
+			children = (
+				500D59791B88CD1A00C0139F /* MHKMainIndexViewController.h */,
+				500D597A1B88CD1A00C0139F /* MHKMainIndexViewController.m */,
+				500D59931B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.h */,
+				500D59941B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.m */,
+				500D597C1B88CD3A00C0139F /* MHKAnimations */,
+				500D59811B88CD9B00C0139F /* MHKViews */,
+			);
+			path = MHKSections;
+			sourceTree = "<group>";
+		};
+		500D597C1B88CD3A00C0139F /* MHKAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				500D59861B88CE4400C0139F /* MHKBaseAnimations */,
+			);
+			path = MHKAnimations;
+			sourceTree = "<group>";
+		};
+		500D59811B88CD9B00C0139F /* MHKViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MHKViews;
+			sourceTree = "<group>";
+		};
+		500D59861B88CE4400C0139F /* MHKBaseAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				500D59871B88CEC800C0139F /* MHKBaseAnimationsViewController.h */,
+				500D59881B88CEC800C0139F /* MHKBaseAnimationsViewController.m */,
+				500D59961B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.h */,
+				500D59971B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.m */,
+			);
+			path = MHKBaseAnimations;
+			sourceTree = "<group>";
+		};
+		500D598A1B88CF0500C0139F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				500D598B1B88CF2E00C0139F /* MLTransition */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		500D598B1B88CF2E00C0139F /* MLTransition */ = {
+			isa = PBXGroup;
+			children = (
+				500D598C1B88CF4100C0139F /* MLTransition.h */,
+				500D598D1B88CF4100C0139F /* MLTransition.m */,
+			);
+			path = MLTransition;
+			sourceTree = "<group>";
+		};
+		500D598F1B88D21300C0139F /* MHKDefines */ = {
+			isa = PBXGroup;
+			children = (
+				500D59901B88D22A00C0139F /* MHKDefines.h */,
+				500D59911B88D22A00C0139F /* MHKDefines.m */,
+			);
+			path = MHKDefines;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +290,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500D595A1B88CB8E00C0139F /* Main.storyboard in Resources */,
 				500D595F1B88CB8E00C0139F /* LaunchScreen.xib in Resources */,
 				500D595C1B88CB8E00C0139F /* Images.xcassets in Resources */,
 			);
@@ -219,9 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500D59571B88CB8E00C0139F /* ViewController.m in Sources */,
+				500D59771B88CC3B00C0139F /* MHKViewController.m in Sources */,
 				500D59541B88CB8E00C0139F /* AppDelegate.m in Sources */,
 				500D59511B88CB8E00C0139F /* main.m in Sources */,
+				500D59951B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.m in Sources */,
+				500D598E1B88CF4100C0139F /* MLTransition.m in Sources */,
+				500D59921B88D22A00C0139F /* MHKDefines.m in Sources */,
+				500D597B1B88CD1A00C0139F /* MHKMainIndexViewController.m in Sources */,
+				500D59981B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.m in Sources */,
+				500D59891B88CEC800C0139F /* MHKBaseAnimationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		500D59581B88CB8E00C0139F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				500D59591B88CB8E00C0139F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		500D595D1B88CB8E00C0139F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSDevNote_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSDevNote_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

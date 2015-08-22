@@ -2,11 +2,14 @@
 //  AppDelegate.m
 //  iOSDevNote_OC
 //
-//  Created by heke on 15/8/22.
+//  Created by MHK on 15/8/22.
 //  Copyright (c) 2015年 mhk. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MHKMainIndexViewController.h"
+
+#import "MLTransition.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //enable full screen pan gesture support for UINavigationController
+    [MLTransition validatePanPackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypePan];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    MHKMainIndexViewController *mainIndexVC = [[MHKMainIndexViewController alloc] init];
+    mainIndexVC.title = @"Index";
+    [mainIndexVC createMainIndexData];
+    UINavigationController *rootVC = [[UINavigationController alloc] initWithRootViewController:mainIndexVC];
+    
+    self.window.rootViewController = rootVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
