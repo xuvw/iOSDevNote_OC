@@ -10,6 +10,7 @@
 #import "MHKMainIndexViewController.h"
 
 #import "MLTransition.h"
+#import "MHKDefines.h"
 
 @interface AppDelegate ()
 
@@ -32,6 +33,7 @@
     UINavigationController *rootVC = [[UINavigationController alloc] initWithRootViewController:mainIndexVC];
     
     self.window.rootViewController = rootVC;
+    [self.window changeToSlowAnimation];
     
     [self.window makeKeyAndVisible];
     

@@ -19,6 +19,8 @@
 		500D59921B88D22A00C0139F /* MHKDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59911B88D22A00C0139F /* MHKDefines.m */; };
 		500D59951B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59941B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.m */; };
 		500D59981B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D59971B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.m */; };
+		50F736981B8A027C00164D2B /* UIView+MHKAnimationExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F736971B8A027C00164D2B /* UIView+MHKAnimationExt.m */; };
+		50F7369A1B8A06AC00164D2B /* Note.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50F736991B8A06AC00164D2B /* Note.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		500D59941B88D5AE00C0139F /* MHKMainIndexViewController+TableViewDelegates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MHKMainIndexViewController+TableViewDelegates.m"; sourceTree = "<group>"; };
 		500D59961B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MHKBaseAnimationsViewController+Animations.h"; sourceTree = "<group>"; };
 		500D59971B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MHKBaseAnimationsViewController+Animations.m"; sourceTree = "<group>"; };
+		50F736961B8A027C00164D2B /* UIView+MHKAnimationExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MHKAnimationExt.h"; sourceTree = "<group>"; };
+		50F736971B8A027C00164D2B /* UIView+MHKAnimationExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MHKAnimationExt.m"; sourceTree = "<group>"; };
+		50F736991B8A06AC00164D2B /* Note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Note.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +108,11 @@
 				500D595D1B88CB8E00C0139F /* LaunchScreen.xib */,
 				500D594E1B88CB8E00C0139F /* Supporting Files */,
 				500D598A1B88CF0500C0139F /* Vendors */,
+				50F736941B8A021C00164D2B /* MHKGeneral */,
 				500D598F1B88D21300C0139F /* MHKDefines */,
 				500D59741B88CC1300C0139F /* MHKBase */,
 				500D59781B88CCE300C0139F /* MHKSections */,
+				50F736991B8A06AC00164D2B /* Note.txt */,
 			);
 			path = iOSDevNote_OC;
 			sourceTree = "<group>";
@@ -210,6 +217,23 @@
 			path = MHKDefines;
 			sourceTree = "<group>";
 		};
+		50F736941B8A021C00164D2B /* MHKGeneral */ = {
+			isa = PBXGroup;
+			children = (
+				50F736951B8A024F00164D2B /* MHKExts */,
+			);
+			path = MHKGeneral;
+			sourceTree = "<group>";
+		};
+		50F736951B8A024F00164D2B /* MHKExts */ = {
+			isa = PBXGroup;
+			children = (
+				50F736961B8A027C00164D2B /* UIView+MHKAnimationExt.h */,
+				50F736971B8A027C00164D2B /* UIView+MHKAnimationExt.m */,
+			);
+			path = MHKExts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -292,6 +316,7 @@
 			files = (
 				500D595F1B88CB8E00C0139F /* LaunchScreen.xib in Resources */,
 				500D595C1B88CB8E00C0139F /* Images.xcassets in Resources */,
+				50F7369A1B8A06AC00164D2B /* Note.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +342,7 @@
 				500D59921B88D22A00C0139F /* MHKDefines.m in Sources */,
 				500D597B1B88CD1A00C0139F /* MHKMainIndexViewController.m in Sources */,
 				500D59981B88E63D00C0139F /* MHKBaseAnimationsViewController+Animations.m in Sources */,
+				50F736981B8A027C00164D2B /* UIView+MHKAnimationExt.m in Sources */,
 				500D59891B88CEC800C0139F /* MHKBaseAnimationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +532,7 @@
 				500D59701B88CB8E00C0139F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		500D59711B88CB8E00C0139F /* Build configuration list for PBXNativeTarget "iOSDevNote_OCTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +541,7 @@
 				500D59731B88CB8E00C0139F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

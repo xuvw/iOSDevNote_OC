@@ -1,0 +1,15 @@
+1 print detail info of exception breakpoint：
+  simulator:po $eax  device:po $r0
+  see:http://nshint.io/blog/2015/06/24/detailed-exceptions/
+2 Storyboard Localization:
+  see:http://nshint.io/blog/2015/06/25/storyboard-localization/
+3 Tracking Down Drawing Errors:
+  set Symbolic breakpoint:CGPostError
+  see:http://nshint.io/blog/2015/06/27/tracking-drawing-errors/
+4 Fixing UICatalog Invalid Asset Error
+  set Symbolic breakpoint:[UIImage imageNamed:] with condtion:
+  $arg3==nil(for simulator);$r0==nil(for device)
+  see:http://nshint.io/blog/2015/07/02/fixing-uicatalog-invalid-asset-error/
+5 http://nshint.io/blog/2015/07/05/working-with-coretelephony-framework/
+6 http://nshint.io/blog/2015/07/16/uicollectionviews-now-have-easy-reordering/
+7 http://nshint.io/blog/2015/08/17/autolayout-breakpoints/

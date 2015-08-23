@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UIView+MHKAnimationExt.h"
 
 #define kMHKDebug 1
 
