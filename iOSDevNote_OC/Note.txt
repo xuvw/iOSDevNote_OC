@@ -13,3 +13,10 @@
 5 http://nshint.io/blog/2015/07/05/working-with-coretelephony-framework/
 6 http://nshint.io/blog/2015/07/16/uicollectionviews-now-have-easy-reordering/
 7 http://nshint.io/blog/2015/08/17/autolayout-breakpoints/
+8 http://tech.glowing.com/cn/practice-in-uiscrollview/
+9 http://tech.glowing.com/cn/make_apple_watch_app/
+10 http://tech.glowing.com/cn/usage-of-cadisplaylink/
+11 http://tech.glowing.com/cn/objective-c-runtime/
+12 http://blog.csdn.net/pearlhuzhu/article/details/24519515
+13 http://www.ietf.org/rfc/rfc3339.txt about time
+14
